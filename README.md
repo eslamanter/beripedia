@@ -1,6 +1,6 @@
 # Beripedia
 
-A STEM school app made to access up-to-date educational content of diferent subjects on Google Docs shared on Google Drive.
+A STEM school app made to access up-to-date educational content of different subjects on Google Docs shared on Google Drive.
 
 20/11/2013 | Eslam Abdullah
 
