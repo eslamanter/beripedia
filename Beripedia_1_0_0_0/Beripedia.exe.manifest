@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Beripedia.exe" version="1.0.0.0" publicKeyToken="ca7931425ac49dc1" language="en" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="wikipedia_logo1.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Beripedia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Beripedia.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Beripedia.exe" size="7643136">
+      <assemblyIdentity name="Beripedia" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TTBtcNe7mFOH/UBEnZEfNl8hrCk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="wikipedia_logo1.ico" size="370070">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>ctpy1jJRpSPmvm4edkK/OvrgCzU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=STUDENT-PC132\Student" issuerKeyHash="a9c06ad96998b1d549e53ca67c7d48d9b1b0e139" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>073NYpqy4h4V53hNLl5jq4T7Wis=</DigestValue></Reference></SignedInfo><SignatureValue>eIW5p5Mw3CmOlYXO7bdlmHs396nNfPs+s/vHB6tVtlBevG7zhtvPUSLHlfTOi2FLnvsOwu+0bRE5y4Eb0LRRGrQJszeIHG+qHGLwCC9HBWew7RWhXtf0tBm7dfDZtXO5F+ArPaoN8Se1lnc6K9XF22Bi7F9+HPyvfu3sHyfrgII=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xzs/LCkqqnTom53SFBb4bEkVCu5PXRH//qbPNNWE0XHedh1N11Yc+cKoMavLEPdJ7AAorqM+ZAOd5/VdpFUFWUGFaN6eQG91/CWz7csW3xtj9nj41DHK1PQEqQXCTyoWiMXX1+KbCWqf3GAu1mVBiCtZho2wkcDnrsAsE+X6c0E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2b5afb84ab635e2e4d78e7151ee2b29a62cdbdd3" Description="" Url=""><as:assemblyIdentity name="Beripedia.exe" version="1.0.0.0" publicKeyToken="ca7931425ac49dc1" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=STUDENT-PC132\Student</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>wEh9GqdR4kO4AbED1BnxcoYjQ20=</DigestValue></Reference></SignedInfo><SignatureValue>aS9ib25PebRPTRnTOThcKfvTMcp3EkJRN9pemYkBTljpJOAri1zlwHDFlTYZD01pXCeTjW4/x44nqd5SHTC742isUw4xQithxUr2LfpH7g4pILH7nVPK0VVxpW2sbTtxjBag7EKHH1pAW0mvCKEuel8q1eimTmt2TxpiK0TEQgw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xzs/LCkqqnTom53SFBb4bEkVCu5PXRH//qbPNNWE0XHedh1N11Yc+cKoMavLEPdJ7AAorqM+ZAOd5/VdpFUFWUGFaN6eQG91/CWz7csW3xtj9nj41DHK1PQEqQXCTyoWiMXX1+KbCWqf3GAu1mVBiCtZho2wkcDnrsAsE+X6c0E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQb6fasyQujrNJScWnHkun4TANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioAUwBUAFUARABFAE4AVAAtAFAAQwAxADMAMgBcAFMAdAB1AGQAZQBuAHQwHhcNMTMxMTE5MjMzMjQ5WhcNMTQxMTIwMDUzMjQ5WjA1MTMwMQYDVQQDHioAUwBUAFUARABFAE4AVAAtAFAAQwAxADMAMgBcAFMAdAB1AGQAZQBuAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMc7PywpKqp06Jud0hQW+GxJFQruT10R//6mzzTVhNFx3nYdTddWHPnCqDGryxD3SewAKK6jPmQDnef1XaRVBVlBhWjenkBvdfwls+3LFt8bY/Z4+NQxytT0BKkFwk8qFojF19fimwlqn9xgLtZlQYgrWYaNsJHA567ALBPl+nNBAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEARbemNnFdPWtbX5FIVMzkAYlYfzqxoxo06KlISVxSczQPJo56XtVO30gJQ6xY38xv68ElyUCdLIkSoiTq6oyE1GrGwemK7ANkzHoooQvwaH5EcX0gD/IvH8JSDyq6JtBJ+B60QW3RT1TeEwLowWp7pQ/xmn22Ih9vnPgtbIioTvM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
